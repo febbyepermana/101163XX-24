@@ -1,28 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="tombol.css">
+	<title>Tugas1-10116306-24</title>
+</head>
+<body bgcolor="mediumseagreen">
 <style>
-	div.a {
-	position: absolute;
+table {
+position: absolute;
 	margin-top: -100px;
 	margin-left: -200px;
 	left: 50%;
 	top: 50%;
 	width: 400px;
 	height: 220px;
-}
-</style>
+	font-size: 22;
+	font-color:white;
 
-<div class ="a">
-<?php
+}	
 
-	echo "<table border = '2' >";
-	echo "<tr>";
-	echo "<td> NIM </td>" ;
-	echo "<td> 10116360 </td> " ;
-	echo "</tr>";
-	echo "<tr>";
-	echo "<td> Nama </td>"; 
-	echo "<td> Febbye permana </td> " ;
-	echo "</tr>";
-	echo "</table>";
-?>
+</style>	
+<center>
+	 <table border = "10" border-color="black" , align="center" >
+	 <tr>
+	 <td><h1 align="center"> NIM </h1></td> 
+	 <td><h1> 10116360 </h1></td> 
+	 </tr>
+	 <tr>
+	 <td><h1 align="center"> Nama </h1></td> 
+	 <td><h1> Febbye permana </h1></td>  
+	 </tr>
+	 </table>
+</center>
 
-</div>
+</body>
+</html>
+
